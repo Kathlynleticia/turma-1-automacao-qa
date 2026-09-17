@@ -1,0 +1,21 @@
+{
+  "name": "automacao-qa",
+  "type": "module",
+  "main": "dist/aula26/index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "dev": "npm run type-check && tsx src/aula26/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "dependencies": {
+    "@types/node": "^26.5.1",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "esbuild": "^0.26.0",
+    "tsx": "^4.19.4"
+  }
+}
